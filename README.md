@@ -44,3 +44,16 @@ sh xvfb_run.sh python3 dreamer.py \
   --logdir ./logdir_hubo_off/run1 \
   --lang_text ""
 ```
+
+### 디렉토리 정리 
+```bash
+
+logdir_on┌─ run1  ( 그냥 concat ) 
+         └─ run2 ( FiLM )
+
+
+logdir_off┌─ run1  ( 그냥 concat ) 
+          └─ run2 ( FiLM )
+
+```
+
